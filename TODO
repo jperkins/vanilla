@@ -1,0 +1,7 @@
+
+- add markup from Rails for default display of form related errors
+- add css from Rails for form related errors
+
+- modify form markup so that it's what formtastic will generate
+- add default css for forms
+

@@ -1,0 +1,184 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Helvetica, "Helvetica Neue", Arial, Geneva, sans-serif;
+  font-size: 87.5%;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  background: transparent;
+}
+
+
+/* Logical Divs
+----------------------------------------------- */
+
+#container {
+  text-align: left;
+  width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em 9em 9em 4.5em;
+}
+
+#header {
+
+}
+
+#navigation {
+  border-top: solid 1px #CCC;
+  border-bottom: solid 1px #CCC;
+  padding: 5px 0;
+}
+
+#content {
+
+}
+
+#footer {
+  padding-top: 3em;
+  font-size: .9em;
+}
+
+
+/* Navigation
+----------------------------------------------- */
+
+#navigation ul {
+  list-style: none;
+}
+
+#navigation li {
+  display: inline;
+  padding: 0em 1em;
+}
+
+
+/* Headers
+----------------------------------------------- */
+
+h1, h2 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.3em;
+  padding: 1.5em 0;
+}
+
+h3 {
+  font-size: 1em;
+  padding: 1em 0;
+}
+
+
+/* Tables
+----------------------------------------------- */
+
+table {
+  border-collapse: collapse;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin: 1em 0em 3em 0em;
+}
+
+caption {
+  padding-bottom: .413em;
+  font-size: 1em;
+  text-align: left;
+}
+
+thead th {
+  vertical-align: center;
+  text-align: center;
+  font-size: .9em;
+  background-color: #DDD;
+  font-weight: normal;
+}
+
+thead th[rowspan]:first-child {
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #FCC;
+}
+
+td, th {
+  border-collapse: collapse;
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  padding: 2px 5px;
+  text-align: right;
+}
+
+#name { width: 4em; }
+#color { width: 5em; }
+#quantity { width: 8em; }
+#delete { width: 4em; }
+#edit { width: 4em; }
+
+
+/* Form
+----------------------------------------------- */
+
+form ol {
+  list-style: none;
+}
+
+form li {
+  padding: 0em 1em;
+}
+
+form fieldset {
+  margin-bottom: 10px;
+}
+
+form legend {
+  margin: 0 1em;
+  font-weight: bold;
+}
+
+form label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+
+form fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+
+form fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+form em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+form label {
+  width: 120px; /* Width of labels */
+}
+
+
+/* Tags
+----------------------------------------------- */
+
+p {
+  padding-bottom: 1em;
+}
