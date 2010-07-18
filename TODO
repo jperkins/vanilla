@@ -5,3 +5,5 @@
 - modify form markup so that it's what formtastic will generate
 - add default css for forms
 
+- add separate markup and css for html5
+
